@@ -28,9 +28,10 @@ h3{
 }
 
 #tangela{
-    height: 700px;
+    height: auto;
     text-align: center;
-    background: url(abackground.jpg);
+    background: url(images/tangelaback.jpeg);
+    background-color: bisque;
     background-attachment: fill;
 }
 
@@ -62,14 +63,14 @@ h2{
 #kadabra{
     height: 700px;
     text-align: center;
-    background: url(Pokemon6/images/garfieldback.gif);
+    background: url(images/kadabraback.jpeg);
     background-attachment: fixed;
 }
 
 #emboar{
     height: 700px;
     text-align: center;
-    background: url(Pokemon6/images/Emboaronfireattack.jpg);
+    background: url(images/Emboaronfireattack.jpg);
     background-size: cover;
     background-attachment: fixed;
 

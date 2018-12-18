@@ -166,29 +166,29 @@ button3.addEventListener("click", (event) => {
 
 let kadabra = document.getElementById("kadabra-pic")
 kadabra.addEventListener("mouseover", function (event) {
-  kadabra.src = "Pokemon6/images/zeraora.png";
+  kadabra.src = "images/kadabra.jpeg";
 })
 
 kadabra.addEventListener("mouseout", function (event) {
-  kadabra.src = "Pokemon6/images/kadabra.png";
+  kadabra.src = "images/kadabra2.jpeg";
 })
 
 let emboar = document.getElementById("emboar-pic")
 emboar.addEventListener("mouseover", function (event) {
-  emboar.src = "Pokemon6/images/cardinfoemboar.jpg";
+  emboar.src = "images/cardinfoemboar.jpg";
 })
 
 emboar.addEventListener("mouseout", function (event) {
-  emboar.src = "Pokemon6/images/emboar.gif";
+  emboar.src = "images/emboar.gif";
 })
 
 let tangela = document.getElementById("tangela-pic")
 tangela.addEventListener("mouseover", function (event) {
-  tangela.src = "Pokemon6/images/shinytangelaanimated.gif";
+  tangela.src = "images/ShinyTangelaanimated.gif";
 })
 
 tangela.addEventListener("mouseout", function (event) {
-  tangela.src = "Pokemon6/images/tangelaanimated-1.gif";
+  tangela.src = "images/Tangelaanimated-1.gif";
 })
 
 window.addEventListener("scroll", (event) => {
