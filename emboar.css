@@ -27,11 +27,8 @@ h3 {
   height: auto;
   text-align: center;
   background: url(images/tangelaback.jpeg);
-
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
- }
+  background-color: bisque;
+  background-attachment: fill; }
 
 .attributes-list li {
   text-align: left;
@@ -58,19 +55,14 @@ h2 {
   height: 700px;
   text-align: center;
   background: url(images/kadabraback.jpeg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover; 
-}
+  background-attachment: fixed; }
 
 #emboar {
   height: 700px;
   text-align: center;
   background: url(images/Emboaronfireattack.jpg);
   background-size: cover;
-  background-attachment: fill;
-  
- }
+  background-attachment: fixed; }
 
 #pokeball:hover {
   animation: shake 0.6s; }

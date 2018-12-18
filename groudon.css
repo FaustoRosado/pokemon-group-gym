@@ -27,13 +27,16 @@ h3 {
   height: 700px;
   text-align: center;
   background: url("back1.png");
-  background-attachment: fill; }
+  background-attachment: fixed;
+  background: no-repeat; }
 
 .attributes-list li {
   text-align: left;
   opacity: 0; }
 
 .attributes-list {
+  /* padding: 90px; */
+  /* text-align: left; */
   list-style: none;
   font-family: 'Ubuntu Mono', monospace; }
 
@@ -65,10 +68,10 @@ h2 {
   animation: shake 0.6s; }
 
 .nav-wrapper {
-  background-color: #403D39; }
+  background-color: #e4c844; }
 
 #footer {
-  background-color: #403D39; }
+  background-color: #e4c844; }
 
 @keyframes shake {
   0% {
