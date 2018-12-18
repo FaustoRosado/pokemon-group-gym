@@ -1,0 +1,132 @@
+body {
+ 
+    background: url(images/garfieldback.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} 
+  // body:hover {
+
+  //   background-color: url(images/background3.gif)no-repeat center center fixed;
+  //   -webkit-background-size: cover;
+  //   -moz-background-size: cover;
+  //   -o-background-size: cover;
+  //   background-size: cover;
+  // }
+  // img{
+  //   align-items: center;
+  //   cursor: pointer;
+  //   -webkit-transition: background-color 2s ease-out;
+  //   -moz-transition: background-color 2s ease-out;
+  //   -o-transition: background-color 2s ease-out;
+  //   transition: background-color 2s ease-out;
+  // }
+  // img{
+  //   align-items: center;
+  // }
+
+
+  
+  // /* Safari 4.0 - 8.0 */
+  // @-webkit-keyframes myfirst {
+  //   0%   {background: rgb(255, 208, 0); left: 0px; top: 0px;}
+  //   25%  {background: rgb(255, 208, 0); left: 200px; top: 0px;}
+  //   50%  {background: rgb(255, 208, 0); left: 200px; top: 200px;}
+  //   75%  {background: rgb(255, 208, 0); left: 0px; top: 200px;}
+  //   100% {background:rgb(255, 208, 0); left: 0px; top: 0px;}
+  // }
+  
+  // @keyframes myfirst {.box:hover {
+  //   background-color: purple;  // .box:hover {
+  //   background-color: purple;
+  //   cursor: pointer;
+  //   -webkit-transition: background-color 2s ease-out;
+  //   -moz-transition: background-color 2s ease-out;
+  //   -o-transition: background-color 2s ease-out;
+  //   transition: background-color 2s ease-out;
+  // }
+  // img{
+  //   align-items: center;
+  //   cursor: pointer;
+  //   -webkit-transition: background-color 2s ease-out;
+  //   -moz-transition: background-color 2s ease-out;
+  //   -o-transition: background-color 2s ease-out;
+  //   transition: background-color 2s ease-out;
+  // }
+  // img{
+  //   align-items: center;
+  // }
+
+  // .box {
+  //   width: 100px;
+  //   height: 100px;
+  //   background:  rgb(255, 208, 0);
+  //   position: relative;
+  //   -webkit-animation: myfirst 5s 2; /* Safari 4.0 - 8.0 */
+  //   -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  //   animation: myfirst 5s 2;
+  //   animation-direction: alternate;
+  // }
+  
+  // /* Safari 4.0 - 8.0 */
+  // @-webkit-keyframes myfirst {
+  //   0%   {background: rgb(255, 208, 0); left: 0px; top: 0px;}
+  //   25%  {background:  rgb(255, 208, 0); left: 200px; top: 0px;}
+  //   50%  {background: rgb(255, 208, 0); left: 200px; top: 200px;}
+  //   75%  {background: rgb(255, 208, 0); left: 0px; top: 200px;}
+  //   100% {background: rgb(255, 208, 0); left: 0px; top: 0px;}
+  // }
+  
+  // @keyframes myfirst {
+  //   0%   {background: rgb(255, 208, 0); left: 0px; top: 0px;}
+  //   25%  {background:  rgb(255, 208, 0); left: 200px; top: 0px;}
+  //   50%  {background:  rgb(255, 208, 0); left: 200px; top: 200px;}
+  //   75%  {background:  rgb(255, 208, 0); left: 0px; top: 200px;}
+  //   100% {background:  rgb(255, 208, 0); left: 0px; top: 0px;}
+  // }
+  //   0%   {background:  rgb(255, 208, 0); left: 0px; top: 0px;}
+  //   25%  {background:  rgb(255, 208, 0); left: 200px; top: 0px;}
+  //   50%  {background:   rgb(255, 208, 0); left: 200px; top: 200px;}
+  //   75%  {background:  rgb(255, 208, 0); left: 0px; top: 200px;}
+  //   100% {background:  rgb(255, 208, 0); left: 0px; top: 0px;}
+  // }
+
+ 
+  //moving nav bar
+
+  #mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #about {
+    top: 20px;
+    background-color: #4CAF50;
+  }
+  
+  #blog {
+    top: 80px;
+    background-color: #2196F3;
+  }
+  
+  #projects {
+    top: 140px;
+    background-color: #f44336;
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: #555
+  }

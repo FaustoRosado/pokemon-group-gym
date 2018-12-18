@@ -1,0 +1,87 @@
+.front {
+  background-image: url(images/background5.webp);
+ 
+  background-position: center;
+  min-height: 1200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+        /* Needed to position the navbar */
+        position: relative;
+}
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  #image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image2 {
+    position: absolute;
+   // top: 30px;
+   // left: 70px;
+  }
+
+  //moving nav bar
+
+  #mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #about {
+    top: 20px;
+    background-color: #4CAF50;
+  }
+  
+  #blog {
+    top: 80px;
+    background-color: #2196F3;
+  }
+  
+  #projects {
+    top: 140px;
+    background-color: #f44336;
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: #555
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }  
+  header {
+    text-align: center;
+  }
+  header{
+   img {
+    max-height: 100px;
+    cursor: pointer;
+   }
+  }
+  div {
+    img{
+      align-content: right;
+    }
+  }
+  
+  
