@@ -166,29 +166,29 @@ button3.addEventListener("click", (event) => {
 
 let kadabra = document.getElementById("kadabra-pic")
 kadabra.addEventListener("mouseover", function (event) {
-  kadabra.src = "Pokemon6/images/zeraora.png";
+  kadabra.src = "images/kadabra.jpeg";
 })
 
 kadabra.addEventListener("mouseout", function (event) {
-  kadabra.src = "Pokemon6/images/kadabra.png";
+  kadabra.src = "images/kadabra2.jpeg";
 })
 
 let emboar = document.getElementById("emboar-pic")
 emboar.addEventListener("mouseover", function (event) {
-  emboar.src = "Pokemon6/images/cardinfoemboar.jpg";
+  emboar.src = "images/cardinfoemboar.jpg";
 })
 
 emboar.addEventListener("mouseout", function (event) {
-  emboar.src = "Pokemon6/images/emboar.gif";
+  emboar.src = "images/emboar.gif";
 })
 
 let tangela = document.getElementById("tangela-pic")
 tangela.addEventListener("mouseover", function (event) {
-  tangela.src = "Pokemon6/images/shinytangelaanimated.gif";
+  tangela.src = "images/ShinyTangelaanimated.gif";
 })
 
 tangela.addEventListener("mouseout", function (event) {
-  tangela.src = "Pokemon6/images/tangelaanimated-1.gif";
+  tangela.src = "images/Tangelaanimated-1.gif";
 })
 
 window.addEventListener("scroll", (event) => {
@@ -222,13 +222,13 @@ window.addEventListener("scroll", (event) => {
     kadabraAbilities.style.animation = "fadeIn 5.6s forwards"
   }
 
-  if (window.scrollY > 800) {
+  if (window.scrollY > 1000) {
     let emboarPic = document.getElementById("emboar-pic")
     emboarPic.style.animation = "fadeIn 0.6s forwards"
 
   }
 
-  if (window.scrollY > 850) {
+  if (window.scrollY > 1050) {
     let emboarHPLabel = document.getElementById("emboar-hp-label")
     emboarHPLabel.style.animation = "fadeIn 0.6s forwards"
     let emboarHP = document.getElementById("emboar-hp")
@@ -248,13 +248,13 @@ window.addEventListener("scroll", (event) => {
     let emboarAbilities = document.getElementById("emboar-abilities")
     emboarAbilities.style.animation = "fadeIn 5.6s forwards"
   }
-  if (window.scrollY > 1300) {
+  if (window.scrollY > 1500) {
     let tangelaPic = document.getElementById("tangela-pic")
     tangelaPic.style.animation = "fadeIn 0.6s forwards"
 
   }
 
-  if (window.scrollY > 1350) {
+  if (window.scrollY > 1550) {
     let tangelaHPLabel = document.getElementById("tangela-hp-label")
     tangelaHPLabel.style.animation = "fadeIn 0.6s forwards"
     let tangelaHP = document.getElementById("tangela-hp")
