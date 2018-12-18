@@ -222,13 +222,13 @@ window.addEventListener("scroll", (event) => {
     kadabraAbilities.style.animation = "fadeIn 5.6s forwards"
   }
 
-  if (window.scrollY > 800) {
+  if (window.scrollY > 1000) {
     let emboarPic = document.getElementById("emboar-pic")
     emboarPic.style.animation = "fadeIn 0.6s forwards"
 
   }
 
-  if (window.scrollY > 850) {
+  if (window.scrollY > 1050) {
     let emboarHPLabel = document.getElementById("emboar-hp-label")
     emboarHPLabel.style.animation = "fadeIn 0.6s forwards"
     let emboarHP = document.getElementById("emboar-hp")
@@ -248,13 +248,13 @@ window.addEventListener("scroll", (event) => {
     let emboarAbilities = document.getElementById("emboar-abilities")
     emboarAbilities.style.animation = "fadeIn 5.6s forwards"
   }
-  if (window.scrollY > 1300) {
+  if (window.scrollY > 1500) {
     let tangelaPic = document.getElementById("tangela-pic")
     tangelaPic.style.animation = "fadeIn 0.6s forwards"
 
   }
 
-  if (window.scrollY > 1350) {
+  if (window.scrollY > 1550) {
     let tangelaHPLabel = document.getElementById("tangela-hp-label")
     tangelaHPLabel.style.animation = "fadeIn 0.6s forwards"
     let tangelaHP = document.getElementById("tangela-hp")
