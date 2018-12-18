@@ -160,29 +160,29 @@ axios.get("https://pokeapi.co/api/v2/pokemon/snorlax/")
 
   let groudon = document.getElementById("groudon-pic")
   groudon.addEventListener("mouseover", function( event ) {   
-      groudon.src = "Pokedex/groundon1.gif";
+      groudon.src = "groudon.png";
   })
 
   groudon.addEventListener("mouseout", function( event ) {   
-      groudon.src = "Pokedex/main.gif";
+      groudon.src = "shiny.png";
   })
 
   let snorlax = document.getElementById("snorlax-pic")
   snorlax.addEventListener("mouseover", function( event ) {   
-      snorlax.src = "Pokedex/snorlax.gif";
+      snorlax.src = "snorlax.png";
   })
 
   snorlax.addEventListener("mouseout", function( event ) {   
-      snorlax.src = "Pokedex/main2.gif";
+      snorlax.src = "snorlax1.png";
   })
 
   let hooh = document.getElementById("hooh-pic")
   hooh.addEventListener("mouseover", function( event ) {   
-      hooh.src = "Pokedex/ho-oh.gif";
+      hooh.src = "Ho-oh.png";
   })
 
   hooh.addEventListener("mouseout", function( event ) {   
-      hooh.src = "Pokedex/main3.gif";
+      hooh.src = "hoho1.png";
   })
 
   window.addEventListener("scroll", (event) => {

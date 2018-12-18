@@ -26,7 +26,7 @@ h3 {
 #groudon {
   height: 700px;
   text-align: center;
-  background: url("Pokedex/groudon.jpg");
+  background: url("back1.png");
   background-attachment: fill; }
 
 .attributes-list li {
@@ -34,8 +34,6 @@ h3 {
   opacity: 0; }
 
 .attributes-list {
-  /* padding: 90px; */
-  /* text-align: left; */
   list-style: none;
   font-family: 'Ubuntu Mono', monospace; }
 
@@ -53,13 +51,13 @@ h2 {
 #hooh {
   height: 700px;
   text-align: center;
-  background: url("Pokedex/hoho.png");
+  background: url("back2.png");
   background-attachment: fixed; }
 
 #snorlax {
   height: 700px;
   text-align: center;
-  background: url("Pokedex/snorlax.jpg");
+  background: url("back3.jpg");
   background-size: cover;
   background-attachment: fixed; }
 
@@ -67,10 +65,10 @@ h2 {
   animation: shake 0.6s; }
 
 .nav-wrapper {
-  background-color: #e4c844; }
+  background-color: #403D39; }
 
 #footer {
-  background-color: #e4c844; }
+  background-color: #403D39; }
 
 @keyframes shake {
   0% {

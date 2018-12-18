@@ -30,8 +30,9 @@ h3{
 #groudon{
     height: 700px;
     text-align: center;
-    background: url("Pokedex/groudon.jpg");
-    background-attachment: fill;
+    background: url("back1.png");
+    background-attachment: fixed;
+    background:no-repeat;
 }
 
 
@@ -62,14 +63,14 @@ h2{
 #hooh{
     height: 700px;
     text-align: center;
-    background: url("Pokedex/hoho.png");
+    background: url("back2.png");
     background-attachment: fixed;
 }
 
 #snorlax{
     height: 700px;
     text-align: center;
-    background: url("Pokedex/snorlax.jpg");
+    background: url("back3.jpg");
     background-size: cover;
     background-attachment: fixed;
 
