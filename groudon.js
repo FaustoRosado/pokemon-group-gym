@@ -38,7 +38,7 @@ class Satoshi{
 let fjr = new Satoshi()
 
 
-axios.get("http://fizal.me/pokeapi/api/383.json")
+axios.get("https://fizal.me/pokeapi/api/383.json")
 .then((response) => {
     let data = response.data
     let hp = document.getElementById("groudon-hp")
