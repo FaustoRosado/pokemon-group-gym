@@ -68,10 +68,10 @@ h2 {
   animation: shake 0.6s; }
 
 .nav-wrapper {
-  background-color: #e4c844; }
+  background-color: gray; }
 
 #footer {
-  background-color: #e4c844; }
+  background-color: gray; }
 
 @keyframes shake {
   0% {
